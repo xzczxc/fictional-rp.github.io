@@ -1,0 +1,106 @@
+@import url(reset.css);
+
+#wrapper{
+	margin:0 auto;
+	width:1000px;
+}
+
+.header{
+	border:solid 1px #000;
+	height:200px;
+	background:url(/img/gta.png) no-repeat;
+}
+
+.naw{
+	border:solid 1px #000;
+	height:60px;
+	border-top:none;
+	background:#666;
+}
+
+.naw ul li{
+	float:left;
+	border-right:solid 1px #000;
+}
+
+.naw ul li a{
+	text-decoration:none;
+	line-height:60px;
+	padding:20px;
+	color:#fff;
+	font-size:20px;
+}
+
+.naw ul li a:hover{
+	color:#ff0000;
+	background:#fff;
+}
+
+.naw form{
+	float:right;
+	line-height:50px;
+	padding:5px;
+}
+
+.naw input:nth-child(1),.naw input:nth-child(2){
+	width:140px;
+	height:30px;
+	font-size:20px;
+	border:solid 1px #fff;
+	background:#666;
+}
+
+.naw input:nth-child(3)
+{
+	height:30px;
+	font-size:20px;
+	background:#666;
+	border:solid 1px #fff;
+	color:#fff;
+}
+
+.container{
+	border:solid 1px #000;
+	padding:10px;
+	background:#fff;
+	margin-top:10px;
+}
+
+.footer{
+	height:50px;
+	background:#fff;
+	border:solid 1px #000;
+	margin-top:20px;
+}
+
+.footer p{
+	line-height:50px;
+	margin-left:10px;
+	color:#ff0000;
+}
+
+.exit{
+	height:30px;
+	cursor:pointer;
+	padding-left:8px;
+	padding-right:8px;
+	font-size:8px;
+}
+
+.left_part{
+	float:left;
+	border:solid 1px #000;
+	width:740px;
+	text-align:center;
+}
+
+.right_part{
+	float:right;
+	border:solid 1px #000;
+	width:220px;
+	text-align:center;
+}
+
+.clear{
+	clear:both;
+}
